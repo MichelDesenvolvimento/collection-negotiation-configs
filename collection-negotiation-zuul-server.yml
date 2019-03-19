@@ -4,11 +4,11 @@ zuul:
   routes:
     billing:
       path: /billing/**
-      serviceId: billing
+      serviceId: billing-customer-service
       strip-prefix: false
     payment:
       path: /payment/**
-      serviceId: payment
+      serviceId: payment-service
       strip-prefix: false
 
 eureka:
