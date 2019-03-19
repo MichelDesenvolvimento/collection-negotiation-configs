@@ -12,7 +12,7 @@ eureka:
     
 zuul:
   prefix: /api
-  ignored-services: *
+  ignored-services: /*
   routes:
     billing:
       path: /billing/**
